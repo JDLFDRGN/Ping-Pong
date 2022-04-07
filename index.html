@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ping Pong</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="player-one-control buttons">
+            <button id="player-one-left-hand" onclick="playerOneTurnLeft()"><img src="img/hand-point-left-solid.svg" alt=""></button>
+            <button onclick="playerOneTurnRight()"><img src="img/hand-point-right-solid.svg" alt=""></button>
+        </div>
+        <div class="canvas-container">
+            <canvas id="canvas"></canvas>
+        </div>
+        <div class="player-two-control buttons">
+            <button onclick="playerTwoTurnLeft()"><img src="img/hand-point-left-solid.svg" alt=""></button>
+            <button onclick="playerTwoTurnRight()"><img src="img/hand-point-right-solid.svg" alt=""></button>
+        </div>
+    </div>
+</body>
+</html>
+<script src="script.js"></script>
